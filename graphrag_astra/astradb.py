@@ -7,6 +7,7 @@ import json
 from typing import Any
 
 from astrapy import DataAPIClient
+from graphrag.vector_stores.base import DEFAULT_VECTOR_SIZE
 from typing_extensions import override
 
 from graphrag.model.types import TextEmbedder
